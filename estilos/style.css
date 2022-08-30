@@ -16,3 +16,121 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
+.highlight {
+    color: var(--maincolor)
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    color: var(--maintextcolor);
+}
+
+#biocontainer{
+    flex: 1 1 20%;
+    min-height: 100vh;
+    background-color: var(--bkcoloraside);
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px solid var(--bordercolor);
+}
+
+#biocontainer #welcometext {
+    font-weight: bold;
+}
+
+#aboutcontainer{
+    flex: 1 1 80%;
+    min-height: 100vh;
+    background-color: var(--aboutbkcolor);
+    padding: 50px;
+}
+
+#bioimg {
+    width: 175px;
+    height: 175px;
+    margin-bottom: 25px;
+}
+
+#biocontainer h2{
+    margin-bottom: 25px;
+}
+
+#biocontainer p {
+    margin-bottom: 20px;
+}
+
+#socialcontainer {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 1px solid var(--bordercolor);
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+#socialcontainer li{
+    flex: 1 1 0;
+    max-width: 60px;
+}
+
+#socialcontainer li a {
+    color: var(--maincolor);
+    font-size: 30px;
+}
+
+#emailcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+#emailcontainer  ion-icon, #emailcontainer a {
+    flex: 1 1 0;
+}
+
+#emailcontainer a{
+    color: var(--maintextcolor);
+    text-decoration: none;
+    max-width: 225px;
+}
+
+#emailcontainer ion-icon {
+    color: var(--maincolor);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+}
+
+#name {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+#title{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.description {
+    max-width: 75%;
+    margin-bottom: 10px;
+}
+
+#btnprojects {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--maintextcolor);
+    background-color: var(--maincolor);
+    border: 2px solid var(--maincolor);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+    margin: 25px 0px;
+    padding: 12px 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+}
