@@ -179,3 +179,54 @@
     font-size: 45px;
     margin-right: 10px;
 }
+
+/*MOBILE*/
+
+@media screen and  (max-width: 768px){
+   
+   #container{
+    flex-direction: column;
+    }
+    
+    #biocontainer {
+        min-height: auto;
+        border-right: none;
+        border-bottom: 5px solid var(--bordercolor);
+    }
+
+    #biocontainer h2 {
+        display: none;
+    }
+
+    #biocontainer p {
+        max-width: 60%;
+        margin: 10px auto;
+    }
+
+    #aboutcontainer {
+        text-align: center;
+        padding: 30px;
+    }
+
+    #aboutcontainer .description{
+        margin: 10px auto;
+        max-width: 100%;
+        line-height: 26px;
+    }
+
+    #btnprojects{
+        margin: 20px auto;
+
+    }
+
+    .skillbox{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .skillbox i {
+        font-size: 60px;
+    }
+}
