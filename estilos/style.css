@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap');
 
 :root{
-    --maincolor: #54B689;
+    --maincolor: #6969B3;
     --maintextcolor: #ffffff; 
     --bordercolor:#999; 
-    --bkcoloraside: #1E2A3A;
+    --bkcoloraside: #3D314A;
     --asidebordercolor: #293544;
-    --aboutbkcolor: #111821;
+    --aboutbkcolor: #1A1423;
 }
 
 * {
@@ -29,7 +29,6 @@
 }
 
 #biocontainer{
-    flex: 1 1 20%;
     min-height: 100vh;
     background-color: var(--bkcoloraside);
     text-align: center;
@@ -72,13 +71,12 @@
 }
 
 #socialcontainer li{
-    flex: 1 1 0;
     max-width: 60px;
 }
 
 #socialcontainer li a {
     color: var(--maincolor);
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #emailcontainer{
@@ -86,9 +84,6 @@
     justify-content: center;
 }
 
-#emailcontainer  ion-icon, #emailcontainer a {
-    flex: 1 1 0;
-}
 
 #emailcontainer a{
     color: var(--maintextcolor);
